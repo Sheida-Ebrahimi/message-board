@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Page setup, Script source-->
+  <title>Sign In Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/sockets.js"></script>
+  <style>
+    /* Style the page layout */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #22313f;
+    }
+    form {
+      width: 300px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #8dc6ff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    label, input {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type="button"] {
+      background-color: #f95959;
+      color: #333;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    input[type="button"]:hover {
+      background-color: #34495e;
+    }
+    a{
+      color: black;
+    }
+    a:visited{
+      color: black;
+    }
+  </style>
+  <script src="js/main.js"></script>
+</head>
+<body>
+<form>
+  <!--Sign in Form-->
+  <h2>Sign In</h2>
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required>
+  <input type="button" onclick="login()" value="Sign In">
+  <h3>Don't have an account? </h3><a href="index.html">Sign up</a>
+</form>
+</body>
+</html>

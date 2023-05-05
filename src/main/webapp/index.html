@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Page setup, script source-->
+  <title>Sign Up Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="js/sockets.js"></script>
+
+  <style>
+    /* Style the page layout */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #22313f;
+    }
+    form {
+      width: 300px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #8dc6ff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    label, input {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type="button"] {
+      background-color: #f95959;
+      color: #333;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    input[type="button"]:hover {
+      background-color: #34495e;
+    }
+    a{
+      color: black;
+    }
+    a:visited{
+      color: black;
+    }
+  </style>
+</head>
+<body>
+<form>
+  <!--Sign up Form-->
+  <h2>Sign Up</h2>
+  <label for="username">New Username:</label>
+  <input type="text" id="username" name="username" required>
+  <label for="password">New Password:</label>
+  <input type="password" id="password" name="password" required>
+
+  <label for="password-confirm">Confirm Password:</label>
+  <input type="password" id="password-confirm" name="password" required>
+  <input type="button" onclick="signup()" value="Sign Up">
+  <h3>Already have an account? </h3><a href="signin.html">Sign in</a>
+
+
+</form>
+</body>
+</html>

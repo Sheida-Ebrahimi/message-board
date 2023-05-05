@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.board-layout {
+    background-color: #22313f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: grid;
+    grid-template-rows: max-content auto;
+    grid-gap: 10px;
+    padding: 10px;
+    height: 800px;
+    overflow: auto;
+
+}
+.board-text {
+    font-weight: bold;
+    font-size: 28px;
+    padding: 5px;
+    color: #e3e3e3;
+}
+.cards-container {
+    display: grid;
+    grid-auto-columns: 275px;
+    grid-auto-flow: column;
+    grid-gap: 10px;
+    height: 400px;
+}
+
+.card {
+    background-color: #8dc6ff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #22313f;
+}
+
+/* Add a card button styles */
+#add-card-btn {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 275px;
+    height: 50px;
+    border: none;
+    background-color: #f95959;
+    color: #333;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.card-title-input {
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.card-title-submit-btn {
+    display: block;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #34495e;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.add-message-btn{
+    display: block;
+    border: none;
+    background-color: #ea9999;
+    color: #333;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.message-card{
+    background-color: #60aeff;
+    display: block;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(9,30,66,.25);
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.message-input{
+    margin-bottom: 10px;
+}

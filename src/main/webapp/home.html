@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Message Board</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+    <script src="js/sockets.js"></script>
+</head>
+<!--header setup above-->
+<body onload="setupSocket(); setupAddCardBtn();">
+<!--Loads the socket and card button-->
+<section class="board-layout">
+    <div class="left">
+        <div class="board-text">Message Board</div>
+    </div>
+    <div class="cards-container">
+        <button id="add-card-btn" >Add a card</button>
+    </div>
+</section>
+</body>
+</html>
