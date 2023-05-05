@@ -1,4 +1,4 @@
-# Winter 2023 CSCI 2020U Systems Project
+# Message Board
 ###### *This was a university project, copying code not allowed*
 
 ## Video link:
