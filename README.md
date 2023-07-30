@@ -2,7 +2,7 @@
 ###### *This was a university project, copying code not allowed*
 
 ## Video link:
-https://shorturl.at/dhny1
+[Click here to view video](https://drive.google.com/file/d/19eqfYd9F9yesTnbcnGccNJKZSgimXL1h/view?pli=1)
 
 ## Developers:
 * #### [Siddhant Das](https://github.com/Sid-26)
